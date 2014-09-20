@@ -1,6 +1,6 @@
 YM14 est un protocole de cryptage polymorphe.
 
-Le message est cryté de façon polymorphique ce qui signifie que pour le même message clair
+Le message est crypté de façon polymorphique ce qui signifie que pour le même message clair
  le message crypté peut prendre différente forme. Dans le cas du protocole YM14 il y a une infinité de
  forme pour le  message crypté. Ce qui lui confère une résistance importante face à la cryptanalyse.
 
@@ -9,7 +9,7 @@ UTILISATION
 Vous pouvez écrire le message à crypter dans le fichier "message.ym14" ou, 
 si ce fichier n'est pas dans le répertoire de travail de l'émission il vous sera demandé de saisir un message.
 
-Pour émettre un méssage crypté, vous devez avoir au moins les fichiers YM14Emission et le fichier annuaire.ym14 dans un même répertoire
+Pour émettre un message crypté, vous devez avoir au moins les fichiers YM14Emission et le fichier annuaire.ym14 dans un même répertoire
 et permettre l'écriture sur le fichier messageCrypte.ym14.
 
 Pour décrypter un message, vous devez avoir au moins les fichiers YM14Reception,le fichier messageCrypte.ym14 et
