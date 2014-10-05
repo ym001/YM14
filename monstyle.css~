@@ -5,7 +5,7 @@ body {
         Times, serif;
   
   color: blue;
-  background-color: #d8da3d }
+  background-color: #E5F95B }
 ul.navbar {
   list-style-type: none;
   padding: 0;
@@ -16,7 +16,8 @@ ul.navbar {
   width: 9em }
 h1 {
   font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif }
+        SunSans-Regular, sans-serif 
+    color:#F27230}
 ul.navbar li {
   background: white;
   margin: 0.5em 0;
@@ -28,7 +29,7 @@ a:link {
   color: blue }
 p {font-family:Parkavenue, cursive;
 	font-size:100%;
-  color: blue }
+  color: #2D17A2}
 a:visited {
   color: red }
 a:hover {

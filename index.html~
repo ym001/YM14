@@ -38,7 +38,7 @@
 
 <p>Le message est crypté de façon polymorphique ce qui signifie que pour le même message clair
  le message crypté peut prendre différente forme. Dans le cas du protocole YM14 il y a une quasi infinité de
- forme pour le  message crypté. Ce qui lui confère une résistance importante face à la cryptanalyse.
+ forme pour le  message crypté. Ce qui lui confère une résistance importante face à la cryptanalyse. L'entropie du méssage complet est maximale.
 </p>
 <h1>UTILISATION</h1>
 
@@ -56,17 +56,18 @@ si ce fichier n'est pas dans le répertoire de travail de l'émission il vous se
 " abcdefghijklmnopqrstuvwxyz0123456789.,?-ABCDEFGHIJKLMNOPQRSTUVWXYZéèà"
 </p>
 
-<p>Pour cette version de test il y a uniquement trois utilisateurs bob, alice et anonymous.</p>
+<p>Pour cette version de test accessible sur github, il y a uniquement trois utilisateurs bob, alice et anonymous.</p>
 
 Les pass phrases de ces trois utilisateurs sont
-	<ul><li>pour alice     "jesuisuneblonde"</li>
+	<ul>
+		<li>pour alice     "jesuisuneblonde"</li>
 		<li>	pour bob       "jesuisungeek"</li>
 		<li>	pour anonymous ""</li>
 	</ul>
 	
 <p>Ce protocole est en back tout back. Les pass phrases sont là pour éviter toute attaque par dictionnaire (elle ne sont pas limitées en taille).
 L'annuaire est une autorité de référence permettant la vérification des identités émettrice et réceptrice.
- Il est composé des condensats de chaque utilisateur.
+Il est composé des condensats de chaque utilisateur.
 L'annuaire en vérifiant les identités bloque toute tentative d'attaque du type man in the middle.
 </p>
 Vous avez deux possibilités  :
@@ -75,7 +76,7 @@ Vous avez deux possibilités  :
 	<li>soit vous laissez l'accés à l'url suivant http://ym001.github.io/YM14/annuaire.ym14 pour une lecture en ligne de l'annuaire.</li>
 </ul>
 
-Les fichiers sont compilés pour une architecture linux 64 bits type ubuntu/débian.
+<p>Les fichiers sont compilés pour une architecture linux 64 bits type ubuntu/débian.</p>
 
 </body>
 
