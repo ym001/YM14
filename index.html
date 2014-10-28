@@ -46,10 +46,15 @@
 si ce fichier n'est pas dans le répertoire de travail de l'émission il vous sera demandé de saisir un message.
 </p>
 
-<p>Pour émettre un message crypté, vous devez avoir le fichier YM14Emission avec les droit d'execution et permettre l'écriture sur le fichier messageCrypte.ym14.
+<p>Pour émettre un message crypté, vous devez avoir le fichier YM14Emission avec les droits d'execution et permettre l'écriture sur le fichier messageCrypte.ym14.
+Vous devez aussi laisser une connexion sur le fichier "http://ym001.github.io/YM14/annuaire.ym14" ou déposer ce fichier dans le dossier de travail(si vous travaillez sans connexion).
 </p>
 
+<p>Il vous faut maintenant transmettre le message(fichier:messageCrypte.ym14) par un canal de votre convenance à votre interlocuteur.</p>
+
 <p>Pour décrypter un message, vous devez avoir le fichier YM14Reception et le fichier messageCrypte.ym14 dans un même répertoire.
+Vous devez aussi laisser une connexion sur le fichier "http://ym001.github.io/YM14/annuaire.ym14" ou déposer ce fichier dans le dossier de travail(si vous travaillez sans connexion).
+
 </p>
 
 <p>Les caractères autorisés pour l'écriture du message sont:
@@ -67,8 +72,7 @@ Les pass phrases de ces trois utilisateurs sont
 	
 <p>Ce protocole est en back tout back. Les pass phrases sont là pour éviter toute attaque par dictionnaire (elle ne sont pas limitées en taille).
 L'annuaire est une autorité de référence permettant la vérification des identités émettrice et réceptrice.
-Il est composé des condensats de chaque utilisateur.
-L'annuaire en vérifiant les identités bloque toute tentative d'attaque du type man in the middle.
+Il est composé des condensats de chaque utilisateur. L'annuaire en vérifiant les identités bloque toute tentative d'attaque du type man in the middle.
 </p>
 Vous avez deux possibilités  :
 <ul>
