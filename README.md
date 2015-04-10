@@ -1,3 +1,44 @@
+YM14 is a polymorphic encryption protocol.
+
+The message is encrypted so polymorphic which means that for the same clear message
+ the encrypted message can take different form. In the case of YM14 protocol there is an infinity of
+ form for the encrypted message. Which gives it a significant resistance to cryptanalysis.
+
+USE
+
+You can write the message to encrypt the file "messageEnClair.ym14" or,
+If this file is not in the working directory of the show you will be asked to enter a message.
+
+To send an encrypted message, you must have the YM14Emission file with performing rights,
+allow playback on a file containing the message to be transmitted (eg messageEnClair.ym14)
+and allow writing to a file (for example: messageCrypte.ym14) which will contain the encrypted message to transmit.
+You should also leave a connection on the file "http://ym001.github.io/YM14/annuaire.ym14" or place the file in the working folder (if you work without connection).
+A terminal in order to encrypt the message will be: $ ./YM14Emission messageEnClair.ym14 messageCrypte.ym14
+
+Now you need to convey the message (file: messageCrypte.ym14). By your convenience channel caller </ p>
+
+To decrypt a message, you must have the YM14Reception messageCrypte.ym14 file and the file in the same directory.
+You should also leave a connection on the file "http://ym001.github.io/YM14/annuaire.ym14" or place the file in the working folder (if you work without connection).
+In a terminal command to decrypt a message will be: $ ./YM14Reception messageCrypte.ym14
+
+The characters for the writing of the message are:
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789, -.? ABCDEFGHIJKLMNOPQRSTUVWXYZéèà"
+
+For this test version there are only three users bob, alice and anonymous.
+
+The pass sentences of these users are
+for alice "jesuisuneblonde"
+for bob "jesuisungeek"
+for anonymous ""
+
+This protocol is back everything back. The pass phrases are there to prevent dictionary attacks (which are not limited in size).
+The directory is a reference authority for verification of transmitter and receiver identities.
+The book by checking the identities blocks any attempt to attack the man in the middle type.
+
+The files are compiled for 64-bit architecture linux ubuntu kind / Debian.
+
+Pour nos amis les frenchys...
+
 YM14 est un protocole de cryptage polymorphe.
 
 Le message est crypté de façon polymorphique ce qui signifie que pour le même message clair
