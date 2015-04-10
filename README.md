@@ -22,7 +22,7 @@ You should also leave a connection on the file "http://ym001.github.io/YM14/annu
 In a terminal command to decrypt a message will be: $ ./YM14Reception messageCrypte.ym14
 
 The characters for the writing of the message are:
-"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789, -.? ABCDEFGHIJKLMNOPQRSTUVWXYZéèà"
+" abcdefghijklmnopqrstuvwxyz0123456789.,?-ABCDEFGHIJKLMNOPQRSTUVWXYZéèà"
 
 For this test version there are only three users bob, alice and anonymous.
 
@@ -78,3 +78,4 @@ L'annuaire en vérifiant les identités bloque toute tentative d'attaque du type
 
 Les fichiers sont compilés pour une architecture linux 64 bits type ubuntu/débian.
 
+La page du projet : http://ym001.github.io/YM14/
