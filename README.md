@@ -79,3 +79,6 @@ L'annuaire en vérifiant les identités bloque toute tentative d'attaque du type
 Les fichiers sont compilés pour une architecture linux 64 bits type ubuntu/débian.
 
 La page du projet : http://ym001.github.io/YM14/
+
+
+https://www.amazon.fr/ABcédaire-Amoureux-lIntelligence-Artificielle-Mercadier/dp/B0C872FTS3
